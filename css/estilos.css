@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body .content {
+    font-size: 14px;
+    width: 720px;
+    height: 1024px;
+    text-align:center;
+    border: 1px solid red;
+}
 .limpiarEstilos::after {
     content: "";
     display: table;
