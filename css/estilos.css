@@ -9,13 +9,27 @@ body .content {
     height: 1024px;
     text-align:center;
     border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
 }
 .limpiarEstilos::after {
     content: "";
     display: table;
     clear: both;
+    
+}
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+#contenedor > div {
+    background-color: green;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
 body {
     color: #555;
     font-family: Open Sans;
